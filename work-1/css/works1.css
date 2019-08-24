@@ -1,0 +1,160 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	min-width: 320px;
+	color: #fff;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+	padding: 100px 0;
+}
+
+.container-fluid{
+	width: 1300px;
+}
+
+
+
+	/* =============================.header============================== */
+	
+	.navbar__contacts{
+		display: inline;
+	}
+
+	.main-header{
+	background: url(../img/bg.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	min-height: 700px;
+	width: 100%;
+	position: relative;
+}
+
+.main-header:before {
+ content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(90deg, rgba(46,47,49,1) 25%, rgba(255,255,255,0) 100%);
+	opacity: 5; 
+  }
+
+.logo-black{
+	display: inline-block;
+  width: 250px;
+  height: 250px;
+  background: black;
+  cursor: pointer;
+  clip-path: polygon(0% 0%, 60% 0%, 60% 56%, 0% 65%);
+}
+
+.logo-bgc{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.nav-contacts{
+	text-align: right;
+}
+
+.nav-phone{
+	/*color: #FFF;*/
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 20px;
+	color: #fff !important;
+ text-decoration: none !important;
+}
+
+.main-header-text{
+/*	margin-top: 100px;*/
+	/*height: auto*/;
+}
+
+.line {
+    display: table;
+    /* width: 25%; */
+}
+
+
+.cont-line {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0 10px;
+}
+.cont-line div {
+    height: 2px;
+    background: #fff;
+    width: 40px;
+}
+
+.text-remont{
+	color: #FED562;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+/*.line{
+	position: relative;
+}
+
+.line::before{
+	content: '\2015';
+	right: -3px;
+	position: absolute;
+}*/
+
+.text-remont-2{
+	
+	color: #a0a1a2;
+
+}
+
+.header-title{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.main-header-icons{
+	margin-top: 50px;
+}
+
+.icon-text{
+	display: inline;
+	float: right;
+	color: #a0a1a2;
+}
+
+.icons{
+	display: inline;
+	float: left;
+}
+
+.section-icon{
+	width: 250px;
+}
+
+.icon-btn{
+	color: #a0a1a2;
+}
+
+.section-btn{
+	margin-top: 100px;
+}
+
+.btn{
+	background-color: #FECB01;
+	font-weight: 700;
+	width: 100%;
+}
+/*.section-button{
+	display: inline-block;
+}*/
